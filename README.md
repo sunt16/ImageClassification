@@ -11,17 +11,29 @@ Place_holder layer
 Convolution layer
 
   input: images set of size ?x128x128x3
+  
   output: data set of size ?x64x64x3
+  
   weights parameter size: 5x5x32, bias parameter size 32
 
 Nonlinear transformation layer
+  
   Relu nonlinear function
+
 Pooling layer
+  
   2x2 maximum pooling
+
 Convolution layer
+  
   input: 
+
 Nonlinear transformation layer
+
 Pooling layer
+
 Fully connected layer
+
 Dropout layer
+
 Fully connected layer
