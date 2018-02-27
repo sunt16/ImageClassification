@@ -9,10 +9,14 @@ A simple cnn model has been used to classify airplanes, ferry and laptop images 
 
 Place_holder layer
 
+![image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic2.png)
+
   x accept the input images, and y_ accept the labels which correspond to images
 
 Convolution layer
 
+![image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic3.png)
+ 
   input: images set of size ?x128x128x3
   
   output: data set of size ?x64x64x32
@@ -20,15 +24,17 @@ Convolution layer
   weights parameter size: 5x5x32, bias parameter size 32
 
 Nonlinear transformation layer
-  
+
   Relu nonlinear function
 
 Pooling layer
-  
+   
   2x2 maximum pooling
 
 Convolution layer
-  
+
+![image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic4.png)
+
   input: data set of size ?x64x64x32
   
   output: data set of size ?x32x32x64
@@ -45,6 +51,8 @@ Pooling layer
 
 Fully connected layer
 
+![image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic5.png)
+
   input: data set of size ?x32x32x64 (?x65536)
 
   output: data set of size ?x1024
@@ -53,6 +61,8 @@ Fully connected layer
   
 Dropout layer
   
+![image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic6.png)
+  
   input: data set of size ?x1024
   
   output: data set of size ?x1024
@@ -60,7 +70,9 @@ Dropout layer
   keep_prob is 0.5 for training data, while 1 for test data
   
 Fully connected layer
-  
+
+![image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic7.png)
+
   input: data set of ?x1024
   
   output: data set of ?x3
@@ -79,7 +91,11 @@ Fully connected layer
     
     2. Excellent performace for unstable loss function
     
-    reference: https://www.jianshu.com/p/aebcaf8af76e
+  reference: https://www.jianshu.com/p/aebcaf8af76e
     
-    Accuracy: 70% for the result of overfitting
+  Accuracy: 70% for the result of overfitting
+  
+  Curve of Loss function:
+  
+  ![image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic1.png)
     
