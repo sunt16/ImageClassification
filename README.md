@@ -21,7 +21,7 @@ Convolution layer
   
   output: data set of size ?x64x64x32
   
-  weights parameter size: 5x5x32, bias parameter size 32
+  weights parameter size: 5x5x3x32, bias parameter size 32
 
 Nonlinear transformation layer
 
@@ -39,7 +39,7 @@ Convolution layer
   
   output: data set of size ?x32x32x64
   
-  weight parameter size: 5x5x64, bias parameter size 64
+  weight parameter size: 5x5x32x64, bias parameter size 64
 
 Nonlinear transformation layer
 
