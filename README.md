@@ -5,6 +5,8 @@ matlab program here used to organize training data and test data
 
 A simple cnn model has been used to classify airplanes, ferry and laptop images from imagenet
 
+[!image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic.png)
+
 Place_holder layer
 
   x accept the input images, and y_ accept the labels which correspond to images
