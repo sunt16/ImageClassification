@@ -1,0 +1,6 @@
+model_checkpoint_path: "c:\\cnn\\model-5000"
+all_model_checkpoint_paths: "c:\\cnn\\model-4996"
+all_model_checkpoint_paths: "c:\\cnn\\model-4997"
+all_model_checkpoint_paths: "c:\\cnn\\model-4998"
+all_model_checkpoint_paths: "c:\\cnn\\model-4999"
+all_model_checkpoint_paths: "c:\\cnn\\model-5000"
