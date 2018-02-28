@@ -123,4 +123,4 @@ Predict the category of new pictures using the trained model
   
   This picture shows an airplane, the trained model gives the tag airplane, correct! 
   
-  ![image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic10.png)
+  ![image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic11.png)
