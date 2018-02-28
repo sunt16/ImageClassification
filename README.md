@@ -3,6 +3,10 @@ Classification problem
 
 matlab program here used to organize training data and test data
 
+Traning and test data: http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz
+
+Reference: https://cn.mathworks.com/examples/matlab-computer-vision/mw/vision-ex77068225-image-category-classification-using-deep-learning?s_tid=srchtitle
+
 A simple cnn model has been used to classify airplanes, ferry and laptop images from imagenet
 
 ![image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic.png)
