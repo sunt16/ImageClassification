@@ -105,7 +105,7 @@ Save trained model
   
   During the training process, key variables have been saved, like the value of weight, bias and computation graph structure.
   
-  These files can be found in 
+  These files can be found in ![TrainedModel](https://github.com/sunt16/ImageClassification/tree/master/SavedModel)
   
 Predict the category of new pictures using the trained model
   
