@@ -85,6 +85,8 @@ Fully connected layer
   
   learning rate: 0.0001
   
+  training number: 5000 times
+  
   the reason of adamoptimizer has been used is that:
     
     1. Automatically adjust the learning rate
@@ -93,9 +95,20 @@ Fully connected layer
     
   reference: https://www.jianshu.com/p/aebcaf8af76e
     
-  Accuracy: 70% for the result of overfitting
+  Accuracy: almost euqual to 100%
   
   Curve of Loss function:
   
   ![image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic1.png)
     
+Save trained model
+  
+  During the training process, key variables have been saved, like the value of weight, bias and computation graph structure.
+  
+  These files can be found in 
+  
+Predict the category of new pictures using the trained model
+  
+  Code in 
+  
+  Part of the forcast result:
