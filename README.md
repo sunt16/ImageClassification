@@ -112,3 +112,15 @@ Predict the category of new pictures using the trained model
   Code in https://github.com/sunt16/ImageClassification/blob/master/cnn_prediction.py
   
   Part of the forcast result:
+  
+  Theis picture shows a ferry on the sea, the trained model gives the tag ferry, correct!
+  
+  ![image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic8.png)
+  
+  This picture shows a laptop, the trained model gives the tag laptop, correct!
+  
+  ![image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic9.png)
+  
+  This picture shows an airplane, the trained model gives the tag airplane, correct! 
+  
+  ![image](https://github.com/sunt16/ImageClassification/blob/master/picture/pic10.png)
